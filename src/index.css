@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-start-rgb));
+}
+
+.dark body {
+  background: rgb(var(--background-end-rgb));
+}
+
+/* Dark mode styles */
+.dark .bg-white {
+  background-color: rgb(31, 41, 55);
+  color: white;
+}
+
+.dark .text-gray-900 {
+  color: white;
+}
+
+.dark .text-gray-800 {
+  color: rgb(209, 213, 219);
+}
+
+.dark .text-gray-700 {
+  color: rgb(229, 231, 235);
+}
+
+.dark .text-gray-600 {
+  color: rgb(209, 213, 219);
+}
+
+.dark .text-gray-500 {
+  color: rgb(156, 163, 175);
+}
+
+.dark .border-gray-200 {
+  border-color: rgb(55, 65, 81);
+}
+
+.dark .bg-gray-50 {
+  background-color: rgb(17, 24, 39);
+}
+
+.dark .bg-gray-100 {
+  background-color: rgb(31, 41, 55);
+}
+
+.dark .hover\:bg-gray-50:hover {
+  background-color: rgb(55, 65, 81);
+}
+
+.dark .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
