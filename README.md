@@ -8,7 +8,6 @@ This is the web interface for counselors on the Calm Minds platform. It allows m
 - Profile management (specialization, experience, region)
 - Session scheduling and booking dashboard
 - Assessments and profile from students
-- Video session links powered by Google Meet
 - Notifications messages
 - Built using React and Firebase
 
@@ -17,10 +16,27 @@ This is the web interface for counselors on the Calm Minds platform. It allows m
 - React
 - Firebase (Auth, Firestore, Functions, Hosting)
 - Material UI
-- EmailJS / Firebase OTP
-- Google Meet Integration
 
-## 📦 Installation
+## 📦 How to Use
 
-1. repository: https://github.com/Investor7-tech/WebApp
+1. **Clone the Repository**:
+Link to github repository: https://github.com/Investor7-tech/WebApp
 
+## Install Dependencies:
+
+- npm install
+
+## Configure Firebase
+
+- Create a Firebase project.
+- Enable Firestore and Authentication.
+- Copy your Firebase config into 
+
+## Run Locally:
+
+- npm start
+
+## Deployment
+
+- npm run build
+- firebase deploy
