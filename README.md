@@ -22,5 +22,5 @@ This is the web interface for counselors on the Calm Minds platform. It allows m
 
 ## 📦 Installation
 
-1. repository:
+1. repository: https://github.com/Investor7-tech/WebApp
 
